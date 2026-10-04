@@ -41,13 +41,19 @@ export SEC_USER_AGENT="Your Name your.email@example.com"
 
 ## Formulas
 
-- Profit Margin = Net Income / Net Sales
-- Asset Turnover = Net Sales / Total Assets
-- Return on Assets = PM x AT = Net Income / Total Assets
-- Financial Leverage = Total Assets / Shareholders' Equity
-- Return on Equity = FL x ROA = Net Income / Shareholders' Equity
-- Cost of Equity Capital = r_f + beta x market risk premium (CAPM, editable in the UI)
-- Equity Spread = ROE - Cost of Equity Capital
+| Abbreviation | Meaning | Formula |
+|---|---|---|
+| NS | Net Sales | |
+| NI | Net Income | |
+| PM | Profit Margin | = NI / NS |
+| TA | Total Assets | |
+| AT | Asset Turnover | = NS / TA |
+| SE | Shareholders' Equity | |
+| FL | Financial Leverage | = TA / SE |
+| ROA | Return on Assets | = PM × AT = NI / TA |
+| ROE | Return on Equity | = FL × ROA = NI / SE |
+| CoE | Cost of Equity Capital | = Risk-free rate + Beta × Market risk premium<br>(CAPM, editable in the UI) |
+| ES | Equity Spread | = ROE − CoE |
 
 ## API
 
