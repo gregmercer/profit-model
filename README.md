@@ -3,6 +3,8 @@
 Vite + React single page app with a FastAPI backend (run by `uv`) that builds a
 Strategic Profit Model for a stock symbol and a start/end fiscal year.
 
+![Strategic Profit Model for Walmart Inc. (WMT), fiscal years 2015 and 2025](docs/screenshot.png)
+
 ## Run
 
 Terminal 1 — backend (http://localhost:8000):
